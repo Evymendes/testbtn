@@ -15,12 +15,13 @@ body{
   font-weight: 400;
 }
 
-.container_btn{
-  width: 50%;
+.container_btns{
+  width: 30%;
   height: 15vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
   background-color: aqua;
 }
 
@@ -28,7 +29,6 @@ body{
   width: 66px;
   height: 32px;
   cursor: pointer;
-  margin: 20px;
 }
 
 .btnOnOff input {
